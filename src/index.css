@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#area-image {
+
+  animation: slideY 2s;
+
+}
+
+
+
+/* Animação subindo area imgae */
+@keyframes slideY{
+  from{
+      transform: translateY(100px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+
+#area-logo {
+
+  animation: slideX 2s;
+
+}
+
+/* Animação subindo area input */
+@keyframes slideX{
+  from{
+      transform: translateY(-100px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+
+
+/* footer{
+  padding-left: 20px;
+  justify-items: end;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  } */

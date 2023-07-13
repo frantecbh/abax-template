@@ -41,7 +41,7 @@ export const SingIn = () => {
                   </label>
                   <input
                     type="password"
-                    className="block w-full px-6 py-3 text-black bg-transparent border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-[#11152b]  focus:outline-none focus:ring-[#11152b]  sm:text-sm"
+                    className="block w-full px-6 py-3 text-black bg-transparent border-2 border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-[#11152b]  focus:outline-none focus:ring-[#11152b]  sm:text-sm"
                     placeholder="Informe sua senha"
                   />
                 </div>
@@ -54,7 +54,7 @@ export const SingIn = () => {
                     >
                       Ambiente
                     </label>
-                    <select className="block w-full px-6 py-3 text-black bg-transparent border border-gray-200 appearance-none rounded-xl placeholder:text-gray-400 focus:border-[#11152b]  focus:outline-none focus:ring-[#11152b]  sm:text-sm">
+                    <select className="block w-full px-6 py-3  bg-transparent border border-gray-200 appearance-none rounded-xl text-gray-400 focus:border-[#11152b]  focus:outline-none focus:ring-[#11152b]  sm:text-sm">
                       <option selected>Selecione o ambiente</option>
                       <option>AMBIENTE 1</option>
                       <option>AMBIENTE 2</option>

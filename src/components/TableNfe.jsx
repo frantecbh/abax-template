@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TableNfe = () => {
   return (
-    <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <div className="relative overflow-x-auto shadow-md sm:rounded-lg mb-4">
       <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
@@ -18,24 +18,69 @@ export const TableNfe = () => {
                 </label>
               </div>
             </th>
-            <th scope="col" className="px-6 py-3">
-              Product name
+            <th scope="col" className="px-2 py-3">
+              ID
             </th>
-            <th scope="col" className="px-6 py-3">
-              Color
+            <th scope="col" className="px-2 py-3">
+              Fornecedor
             </th>
-            <th scope="col" className="px-6 py-3">
-              Category
+            <th scope="col" className="px-2 py-3">
+              SEFAZ
             </th>
-            <th scope="col" className="px-6 py-3">
-              Price
+            <th scope="col" className="px-2 py-3">
+              CFOP
             </th>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="px-2 py-3">
+              OCP
+            </th>
+            <th scope="col" className="px-2 py-3">
+              IF
+            </th>
+            <th scope="col" className="px-2 py-3">
+              NCM
+            </th>
+            <th scope="col" className="px-2 py-3">
+              CF
+            </th>
+            <th scope="col" className="px-2 py-3">
               Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              Action
+            </th>
+            <th scope="col" className="px-2 py-3">
+              EMISSÃO
+            </th>
+            <th scope="col" className="px-2 py-3">
+              EMITENTE
+            </th>
+            <th scope="col" className="px-2 py-3">
+              DESTINATÁRIO
+            </th>
+            <th scope="col" className="px-2 py-3">
+              VALOR
             </th>
           </tr>
         </thead>
-        <tbody>
+        {/* <tbody>
           <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
             <td className="w-4 p-4">
               <div className="flex items-center">
@@ -346,18 +391,18 @@ export const TableNfe = () => {
               </a>
             </td>
           </tr>
-        </tbody>
+        </tbody> */}
       </table>
       <nav
         className="flex items-center justify-between pt-4"
         aria-label="Table navigation"
       >
         <span className="text-sm font-normal text-gray-500 dark:text-gray-400">
-          Showing{' '}
+          Notas{' '}
           <span className="font-semibold text-gray-900 dark:text-white">
             1-10
           </span>{' '}
-          of{' '}
+          de{' '}
           <span className="font-semibold text-gray-900 dark:text-white">
             1000
           </span>

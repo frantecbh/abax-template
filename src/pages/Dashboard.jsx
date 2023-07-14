@@ -14,7 +14,7 @@ const Notas = [
 export const Dashboard = () => {
   return (
     <div className="mx-auto px-4 flex flex-col">
-      <div className="bg-[#11152b] shadow-md w-full px-4 py-8 rounded-md mt-5">
+      <div className="bg-[#11152b] shadow-md w-full px-4 py-6 rounded-md mt-5">
         <div className="flex justify-between">
           <div className="flex items-center gap-4">
             <div>
@@ -43,7 +43,7 @@ export const Dashboard = () => {
                 Ambiente teste
               </p>
             </div>
-            <div className="bg-green-600 h-14 w-14 rounded-full text-white flex items-center justify-center font-bold">
+            <div className="bg-green-600 h-14 w-14 rounded-full text-white flex items-center justify-center font-bold hover:bg-green-500">
               A
             </div>
           </div>
@@ -70,7 +70,9 @@ export const Dashboard = () => {
           </button>
         </div>
         <div className="flex justify-end items-end flex-col">
-          <p>0 Notas localizadas de 01/07/2023 até 30/07/2023</p>
+          <p className="font-semibold text-zinc-500 text-sm">
+            0 Notas localizadas de 01/07/2023 até 30/07/2023
+          </p>
 
           <div>
             <button className="bg-sky-950 text-zinc-100 font-semibold py-2 px-4 rounded-md hover:bg-sky-900">

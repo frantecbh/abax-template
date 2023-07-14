@@ -49,14 +49,14 @@ export const Footer = () => {
           <p className="text-base text-center text-gray-400">
             <span className="mx-auto mt-2 text-sm text-gray-500">
               Copyright © 2023
-              <a
+              {/* <a
                 target="_blank"
                 href="https://abaxsistemas.com.br/"
                 className="mx-2 text-blue-500 hover:text-gray-500"
                 rel="noopener noreferrer"
               >
                 Ábax Sistemas
-              </a>
+              </a> */}
             </span>
           </p>
         </div>
